@@ -13,9 +13,9 @@ escolha = ""
 
 while escolha != certo:
   escolha = int(input("escolha um numero de 1 à 10: "))
-  if escolha >= 5:
-    print("muito alto")
+  if escolha >= 4:
+    print("alto")
   elif escolha <= 2:
-    print("esta perto")
+    print("baixo")
   else:
     print("parabens!!")
